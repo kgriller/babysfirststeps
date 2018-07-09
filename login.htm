@@ -1,0 +1,17 @@
+<html>
+
+<body>
+
+<form action = "http://127.0.0.1:8081/logProc" method = "GET">
+
+Username: <input type = "text" name = "user" pattern = ".{6,}" title = "All usernames require at least 6 characters" required> <br>
+
+Password <input type = "password" name = "password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=" passwords consist of at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> <br>
+
+<input type = "submit" value = "Login">
+
+</form>
+
+</body>
+
+</html>

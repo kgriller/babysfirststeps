@@ -1,0 +1,17 @@
+<html>
+
+<body>
+
+<form action = "http://127.0.0.1:8081/signProc" method = "GET">
+
+Username: <input type = "text" name = "user" pattern = ".{6,}" title = "At least 6 characters are required for a username" required> <br>
+
+Password: <input type = "password" name = "password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> <br>
+
+<input type = "submit" value = "Sign Up">
+
+</form>
+
+</body>
+
+</html>
