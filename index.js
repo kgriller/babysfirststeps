@@ -8,7 +8,6 @@ var path = require('path');
 app.use(cookieParser());
 var whichIm = 0;
 var imMax = 0;
-app.set('view engine', 'pug');
 
 app.use(express.static('curruser'));
 
